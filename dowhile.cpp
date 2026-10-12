@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main (){
-    int saldo = 1000;
-    int Insaldo = 0, Rsaldo= 0;
-    int opcion= 0;
+    float saldo = 100.0;
+    float Insaldo = 0.0, Rsaldo= 0.0;
+    int opcion= 0.0;
         do {
             cout << " OPCIONES " << endl;
             cout << "1. consultar saldo " << endl;
@@ -38,6 +38,7 @@ int main (){
                         }
                         break;
                 default:
+                cout << "opcion invalida, Intente denuevo " << endl;
                     break;
             }
         } while (opcion != 4);
