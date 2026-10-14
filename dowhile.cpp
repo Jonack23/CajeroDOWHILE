@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main (){
-    float saldo = 100.0;
+    float saldo = 1000.0;
     float Insaldo = 0.0, Rsaldo= 0.0;
     int opcion= 0.0;
         do {
@@ -22,7 +22,7 @@ int main (){
                         if (Rsaldo < saldo && Rsaldo > 0){
                             cout << "usted retiro $" << Rsaldo << endl;
                             saldo = saldo - Rsaldo;
-                            cout << "Ahora su saldo actual de su cuenta es: " << saldo;
+                            cout << "Ahora su saldo actual de su cuenta es: " << saldo << endl;
                 } else {
                          cout << " saldo insuficiente o Numero negativo invalido" << endl;}
                     break;
